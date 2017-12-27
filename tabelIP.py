@@ -1,6 +1,7 @@
 m = []
 s = 1
 IP = []
+print "Proses Permutasi Dengan Tabel IP"
 print "Masukkan Biner : "
 for i in range(1, 65):
     masukan = raw_input()
