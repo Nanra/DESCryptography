@@ -34,5 +34,9 @@ print "\n"
 print IP[32:36], IP[36:40], IP[40:44], IP[44:48]
 print "\n"
 print IP[48:52], IP[52:56], IP[56:60], IP[60:64]
+print "\n"
 print ("#"*80)
+print "L0 = ",IP[0:32]
+print "R0 = ",IP[32:64]
+print ("%"*80)
 print "Jumlah Bit",len(IP)
