@@ -32,7 +32,7 @@ print ("%"*80)
 print "Hasil Setelah melalui Tabel IP\n"
 print IP[0:6], IP[6:12], IP[12:18], IP[18:24]
 print "\n"
-print IP[24:32], IP[32:40], IP[40:48]
+print IP[24:30], IP[30:36], IP[36:42], IP[42:48]
 print "\n"
 print ("%"*80)
 print "E(Rn-1) = ",IP[0:48]
