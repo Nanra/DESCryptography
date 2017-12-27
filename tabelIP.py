@@ -1,11 +1,13 @@
 m = []
 s = 1
 IP = []
+print "Masukkan Biner : "
 for i in range(1, 65):
-    print "Masukkan Biner ke",i,":",
     masukan = raw_input()
     m.append(masukan)
-    print (m)
+    if i % 4 == 0:
+        print "\n"
+    # print (m)
 
 # # Test Logic
 # while s < 65 :
