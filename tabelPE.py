@@ -35,6 +35,6 @@ print "\n"
 print P[16:20], P[20:24], P[24:28], P[28:32]
 print "\n"
 print ("%"*80)
-print "F = ", P[0:48]
+print "F = ", P[0:32]
 print ("%"*80)
 print "Jumlah Bit",len(P)
