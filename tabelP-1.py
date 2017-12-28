@@ -24,9 +24,9 @@ Pmin = [m[40 - 1], m[8 - 1], m[48 - 1], m[16 - 1], m[56 - 1], m[24 - 1], m[64 - 
         m[34-1], m[2-1], m[42-1], m[10-1], m[50-1], m[18-1], m[58-1], m[26-1],
         m[33-1], m[1-1], m[41-1], m[9-1], m[49-1], m[17-1], m[57-1], m[25-1]]
 
-print ("&"*60)
+print ("&"*80)
 print(m)
-print ("@"*60)
+print ("@"*80)
 print Pmin
 print ("$"*80)
 print "Hasil Setelah melalui Tabel P-1\n"
