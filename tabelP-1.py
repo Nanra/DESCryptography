@@ -2,18 +2,18 @@ m = []
 s = 1
 Pmin = []
 print "Proses Permutasi Dengan Tabel P-1"
-print "Masukkan Biner : "
-# for i in range(1, 65):
-#     masukan = raw_input()
-#     m.append(masukan)
-#     if i % 4 == 0:
-#         print "\n"
-#     # print (m)
+print "Masukkan Biner satu digit satu digit baru tekan Enter ! "
+for i in range(1, 65):
+    masukan = raw_input()
+    m.append(masukan)
+    if i % 4 == 0:
+        print "\n"
+    # print (m)
 
 # # Test Logic
-while s < 65 :
-    m.append(s)
-    s += 1
+# while s < 65 :
+#     m.append(s)
+#     s += 1
 
 Pmin = [m[40 - 1], m[8 - 1], m[48 - 1], m[16 - 1], m[56 - 1], m[24 - 1], m[64 - 1], m[32 - 1],
         m[39-1], m[7-1], m[47-1], m[15-1], m[55-1], m[23-1], m[63-1], m[31-1],
