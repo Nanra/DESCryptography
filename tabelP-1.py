@@ -39,7 +39,6 @@ print "\n"
 print Pmin[48:52], Pmin[52:56], Pmin[56:60], Pmin[60:64]
 print "\n"
 print ("#"*80)
-print "L0 = ", Pmin[0:32]
-print "R0 = ", Pmin[32:64]
+print "Hasil L16 R16 P-1 = ", Pmin[0:64]
 print ("%"*80)
 print "Jumlah Bit",len(Pmin)
